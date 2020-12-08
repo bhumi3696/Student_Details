@@ -36,7 +36,7 @@ class StudentController extends Controller
         $students->save();
 
         //route with message
-        return redirect(route('home'))->with('successMsg','Student Data Added Successfully');
+        return redirect(route('home'))->with('successMsg','Student Details Added Successfully');
     }
 
     public function edit($id){
